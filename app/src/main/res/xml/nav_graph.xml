@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/profileScreen"
+        android:name="com.example.lab1.ProfileScreen"
+        android:label="Profile Screen"
+        tools:layout="@layout/profile_screen" />
+
+    <!-- Додайте інші destination, якщо потрібно -->
+
+</navigation>

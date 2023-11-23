@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profileScreen">
+
+    <fragment
+        android:id="@+id/profileScreen"
+        android:name="com.example.lab1.ProfileScreen"
+        android:label="Profile Screen"
+        tools:layout="@layout/profile_screen" />
+
+    <fragment
+        android:id="@+id/otherScreen"
+        android:name="com.example.lab1.OtherScreen"
+        android:label="Other Screen"
+        tools:layout="@layout/other_screen" />
+
+    <!-- Додайте інші destination, якщо потрібно -->
+
+</navigation>
